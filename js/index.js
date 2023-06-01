@@ -9,6 +9,5 @@ close.addEventListener('click', function(){
 
 open.addEventListener('click', function(){
     block.style.display = 'flex'
-
 })
 

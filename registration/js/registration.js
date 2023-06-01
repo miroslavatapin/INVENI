@@ -7,6 +7,8 @@ const recovery = document.getElementById('recovery')
 const recoveryBtnEnter = document.querySelector('.recovery__btn_enter')
 const recoveryBtnRegistration = document.querySelector('.recovery__btn_registration')
 
+
+
 registrationBtnEnter.addEventListener('click', function(){
     registration.style.display = 'none'
     enter.style.display = 'flex'
@@ -31,3 +33,4 @@ recoveryBtnRegistration.addEventListener('click', function(){
     recovery.style.display = 'none'
     registration.style.display = 'flex'
 })
+
