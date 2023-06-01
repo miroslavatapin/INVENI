@@ -1,0 +1,109 @@
+@import url(../../css/index.css);
+
+.wrapper{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.block{
+    width: 500px;
+    min-height: 650px;
+    border: 5px solid #379683;
+    border-radius: 20px;
+    padding: 25px 15px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+
+    > #title{
+        text-align: center;
+    }
+
+    > #form{
+
+        input{
+            width: 450px;
+            height: 55px;
+            border-radius: 20px;
+            border: 3px solid #379683;
+            // font-size: 21px;
+            // font-family: 'Plus Jakarta Sans';
+            padding: 0px 10px;
+            margin-bottom: 20px;
+            outline: none;
+        }
+
+        input:last-child{
+            margin: 0;
+        }
+
+        input#submit{
+            letter-spacing: 0.05em;
+            font-size: 24px;
+            font-weight: bold;
+            font-family: 'Syne', sans-serif;
+            background-color: #379683;
+            cursor: pointer;
+        }
+
+        input#submit:hover{
+            background-color: #308a78;
+            border-color: #308a78;
+        }
+    }
+
+    > .registration__btn{
+
+        text-align: center;
+
+        > p > .registration__btn_enter{
+            cursor: pointer;
+            color: rgb(41, 145, 214);
+        }
+    }
+
+    > .enter__btn{
+        
+        text-align: center;
+
+        > .enter__btn_recovery, > .enter__btn_registration{
+            color: rgb(41, 145, 214);
+            cursor: pointer;
+        }
+
+        > .enter__btn_recovery{
+            margin-right: 10px;
+            border-right: 3px solid #379683;
+            padding-right: 10px;
+        }
+    }
+
+    > .recovery__btn{
+
+        text-align: center;
+
+        > .recovery__btn_enter, > .recovery__btn_registration{
+            color: rgb(41, 145, 214);
+            cursor: pointer;
+        }
+
+        > .recovery__btn_enter{
+            margin-right: 10px;
+            border-right: 3px solid #379683;
+            padding-right: 10px;
+        }
+    }
+}
+
+#enter{
+    display: none;
+}
+
+#recovery{
+    display: none;
+}
+
+

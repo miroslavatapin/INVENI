@@ -1,0 +1,95 @@
+@import url(../../css/index.css);
+.wrapper {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.block {
+  width: 500px;
+  min-height: 650px;
+  border: 5px solid #379683;
+  border-radius: 20px;
+  padding: 25px 15px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.block > #title {
+  text-align: center;
+}
+.block > #form input {
+  width: 450px;
+  height: 55px;
+  border-radius: 20px;
+  border: 3px solid #379683;
+  padding: 0px 10px;
+  margin-bottom: 20px;
+  outline: none;
+}
+.block > #form input:last-child {
+  margin: 0;
+}
+.block > #form input#submit {
+  letter-spacing: 0.05em;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: "Syne", sans-serif;
+  background-color: #379683;
+  cursor: pointer;
+}
+.block > #form input#submit:hover {
+  background-color: #308a78;
+  border-color: #308a78;
+}
+.block > .registration__btn {
+  text-align: center;
+}
+.block > .registration__btn > p > .registration__btn_enter {
+  cursor: pointer;
+  color: rgb(41, 145, 214);
+}
+.block > .enter__btn {
+  text-align: center;
+}
+.block > .enter__btn > .enter__btn_recovery, .block > .enter__btn > .enter__btn_registration {
+  color: rgb(41, 145, 214);
+  cursor: pointer;
+}
+.block > .enter__btn > .enter__btn_recovery {
+  margin-right: 10px;
+  border-right: 3px solid #379683;
+  padding-right: 10px;
+}
+.block > .recovery__btn {
+  text-align: center;
+}
+.block > .recovery__btn > .recovery__btn_enter, .block > .recovery__btn > .recovery__btn_registration {
+  color: rgb(41, 145, 214);
+  cursor: pointer;
+}
+.block > .recovery__btn > .recovery__btn_enter {
+  margin-right: 10px;
+  border-right: 3px solid #379683;
+  padding-right: 10px;
+}
+
+#enter {
+  display: none;
+}
+
+#recovery {
+  display: none;
+}

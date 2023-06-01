@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans&family=Syne:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/registration.css">
+    <title>INVENI</title>
+</head>
+<body>
+    <div class="container">
+        <div class="wrapper">
+            <div class="block" id="registration">
+                <div class="registration__title" id="title">
+                    <h3>Регистрация</h3>
+                </div>
+                <div class="registration__form" id="form">
+                    <form action="#">
+                        <h4>Введите E-mail:</h4>
+                        <input type="email" name="email" id="email">
+                        <h4>Введите номер телефона:</h4>
+                        <input type="number" name="number" id="number">
+                        <h4>Введите пароль:</h4>
+                        <input type="password" name="password" id="password">
+                        <input type="submit" name="submit" id="submit" value="ПОЕХАЛИ!">
+                    </form>
+                </div>
+                <div class="registration__btn">
+                    <p>Уже есть аккаунт? <span class="registration__btn_enter">Войти</span></p>
+                </div>
+            </div>
+            <div class="block" id="enter">
+                <div class="enter__title" id="title">
+                    <h3>Войти</h3>
+                </div>
+                <div class="enter__form" id="form">
+                    <form action="#">
+                        <h4>Введите E-mail:</h4>
+                        <input type="email" name="email" id="email">
+                        <h4>Введите пароль:</h4>
+                        <input type="password" name="password" id="password">
+                        <input type="submit" name="submit" id="submit" value="ВОЙТИ">
+                    </form>
+                </div>
+                <div class="enter__btn">
+                    <span class="enter__btn_recovery">Забыли пароль?</span>
+                    <span class="enter__btn_registration">Зарегистрироваться</span>
+                </div>
+            </div>
+            <div class="block" id="recovery">
+                <div class="recovery__title" id="title">
+                    <h3>Восстановление пароля</h3>
+                </div>
+                <div class="recovery__form" id="form">
+                    <form action="#">
+                        <h4>Введите E-mail:</h4>
+                        <input type="email" name="email" id="email">
+                        <input type="submit" name="submit" id="submit" value="Восстановить пароль">
+                    </form>
+                </div>
+                <div class="recovery__btn">
+                    <span class="recovery__btn_enter">Войти</span>
+                    <span class="recovery__btn_registration">Зарегистрироваться</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/registration.js"></script>
+</body>
+</html>
