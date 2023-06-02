@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: "Syne", sans-serif;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+}
+
+h1 {
+  font-size: 80px;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+h3 {
+  font-size: 36px;
+}
+
+h4 {
+  font-size: 24px;
+}
+
+p, li, a, button, input, span {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: normal;
+  font-size: 21px;
+}
+
+input {
+  outline: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+button {
+  border: none;
+  border-radius: 20px;
+  background-color: #379683;
+  cursor: pointer;
+}
+
+a, a:link, a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body {
+  background-color: rgb(238, 238, 238);
+}
+
+/* *************************************************
+***********************FORM*************************
+************************************************* */
+.enter {
+  width: 500px;
+  height: 650px;
+  background-color: white;
+  -webkit-box-shadow: 0px 0px 10px 7px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 0px 10px 7px rgba(0, 0, 0, 0.2);
+  margin: 0 auto;
+  padding: 20px 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.enter > .enter__title {
+  text-align: center;
+}
+.enter > form > h4 {
+  margin-bottom: 10px;
+}
+.enter > form > input {
+  width: 100%;
+  height: 50px;
+  padding: 0px 10px;
+  margin-bottom: 30px;
+}
+.enter > form > input#submit {
+  background-color: #379683;
+  cursor: pointer;
+  border: none;
+  font-size: 24px;
+  margin: 0;
+}
+.enter > .enter__link {
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+.enter > .enter__link > .enter__link_registration > a, .enter > .enter__link > .enter__link_recovery > a {
+  color: rgb(44, 152, 224);
+}
